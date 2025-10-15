@@ -3,7 +3,7 @@
 $host = "localhost";      // XAMPP default hostname
 $user = "root";           // Default MySQL username
 $pass = "";               // Default password is empty in XAMPP
-$dbname = "oteroForm_db";  // Your database name
+$dbname = "oteroform_db";  // Your database name
 
 // Create connection
 $conn = new mysqli($host, $user, $pass, $dbname);
